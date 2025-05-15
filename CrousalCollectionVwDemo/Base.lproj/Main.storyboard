@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6dx-Nc-hJ5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
@@ -22,7 +22,7 @@
                                 <subviews>
                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ngP-9X-rsQ">
                                         <rect key="frame" x="0.0" y="0.0" width="361" height="180"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="V4e-fL-xSd">
                                             <size key="itemSize" width="361" height="182"/>
                                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -69,7 +69,7 @@
                                         </cells>
                                     </collectionView>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="ngP-9X-rsQ" secondAttribute="bottom" id="2OD-dN-GN1"/>
                                     <constraint firstItem="ngP-9X-rsQ" firstAttribute="top" secondItem="KIe-vf-Frx" secondAttribute="top" id="ASF-40-pU2"/>
@@ -80,7 +80,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="viewFlipsideBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="KIe-vf-Frx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="CLb-0C-EfI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KIe-vf-Frx" secondAttribute="trailing" constant="16" id="qJj-CF-m3f"/>
@@ -108,7 +108,7 @@
                                 <subviews>
                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Otn-Ki-png">
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="W00-bN-T1g">
                                             <size key="itemSize" width="385" height="202"/>
                                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -130,7 +130,7 @@
                                                                     <rect key="frame" x="0.0" y="0.0" width="385" height="202"/>
                                                                 </imageView>
                                                             </subviews>
-                                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <constraints>
                                                                 <constraint firstItem="SDc-UM-3tn" firstAttribute="top" secondItem="inI-k1-djI" secondAttribute="top" id="Dje-9g-MY0"/>
                                                                 <constraint firstItem="SDc-UM-3tn" firstAttribute="leading" secondItem="inI-k1-djI" secondAttribute="leading" id="X34-NG-VK6"/>
@@ -139,6 +139,7 @@
                                                             </constraints>
                                                         </view>
                                                     </subviews>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstItem="inI-k1-djI" firstAttribute="top" secondItem="6rR-Xq-5IZ" secondAttribute="top" id="7LT-mt-fMm"/>
                                                         <constraint firstAttribute="trailing" secondItem="inI-k1-djI" secondAttribute="trailing" id="Muz-Oc-c6n"/>
@@ -146,12 +147,13 @@
                                                         <constraint firstAttribute="bottom" secondItem="inI-k1-djI" secondAttribute="bottom" id="cdL-dG-3NB"/>
                                                     </constraints>
                                                 </collectionViewCellContentView>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <size key="customSize" width="385" height="202"/>
                                             </collectionViewCell>
                                         </cells>
                                     </collectionView>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="KMb-N6-drb"/>
                                     <constraint firstAttribute="trailing" secondItem="Otn-Ki-png" secondAttribute="trailing" id="M2m-SN-c5M"/>
@@ -162,7 +164,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lCa-wU-cpR"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="viewFlipsideBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="iKM-LI-Skm" firstAttribute="leading" secondItem="lCa-wU-cpR" secondAttribute="leading" id="3pF-gZ-hrq"/>
                             <constraint firstItem="lCa-wU-cpR" firstAttribute="trailing" secondItem="iKM-LI-Skm" secondAttribute="trailing" id="GbL-Bw-Qxk"/>
@@ -182,6 +184,9 @@
         <image name="1" width="3840" height="2160"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="viewFlipsideBackgroundColor">
+            <color red="0.12156862745098039" green="0.12941176470588237" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

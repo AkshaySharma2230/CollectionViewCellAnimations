@@ -49,6 +49,7 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
             return UICollectionViewCell()
         }
         
+        cell.contentView.layer.cornerRadius = 8
         return cell
     }
     

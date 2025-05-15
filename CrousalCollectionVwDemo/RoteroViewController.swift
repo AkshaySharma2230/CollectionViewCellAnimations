@@ -40,6 +40,9 @@ extension RoteroViewController: UICollectionViewDelegate, UICollectionViewDataSo
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "RoteroCVC", for: indexPath) as? RoteroCVC else {
             return UICollectionViewCell()
         }
+        
+        cell.contentView.layer.cornerRadius = 8
+        
         return cell
     }
     
