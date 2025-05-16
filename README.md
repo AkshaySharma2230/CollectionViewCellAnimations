@@ -21,3 +21,10 @@ Rotero is a stylish, high-performance 3D carousel animation built using UICollec
 
 
 <img width="353" alt="image" src="https://github.com/user-attachments/assets/fe455c80-0e21-4e1e-9891-b3d9a56e6545" />
+
+
+Add Bottom to top Animation
+
+
+https://github.com/user-attachments/assets/7166dc47-f7a0-4ede-aa0a-ab68df5dba0c
+
