@@ -25,6 +25,13 @@ Rotero is a stylish, high-performance 3D carousel animation built using UICollec
 
 Add Bottom to top Animation
 
+each cell slides in from the top when appearing on the screen. You can easily customize the animation speed to match your desired user experience.
+
+Clean and reusable animation logic.
+
+Easily configurable animation duration and delay for each cell.
+
+Smooth and performant, compatible with UIKit-based projects.
 
 https://github.com/user-attachments/assets/7166dc47-f7a0-4ede-aa0a-ab68df5dba0c
 
