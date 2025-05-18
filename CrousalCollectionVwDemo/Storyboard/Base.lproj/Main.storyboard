@@ -249,10 +249,10 @@
             </objects>
             <point key="canvasLocation" x="1391.6030534351144" y="3.5211267605633805"/>
         </scene>
-        <!--View Controller-->
+        <!--NewAnimationViewController-->
         <scene sceneID="uun-V1-PfL">
             <objects>
-                <viewController id="AAA-Gy-rfk" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NewAnimationViewController" title="NewAnimationViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="AAA-Gy-rfk" customClass="NewAnimationViewController" customModule="CrousalCollectionVwDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7q6-33-hTb">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
