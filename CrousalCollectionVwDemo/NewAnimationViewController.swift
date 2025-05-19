@@ -29,7 +29,7 @@ extension NewAnimationViewController: UICollectionViewDelegate, UICollectionView
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "NewAnimationCVC", for: indexPath) as? NewAnimationCVC {
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "NewAnimationCVC", for: indexPath) as? NewAnimationCVC else {
             return UICollectionViewCell()
         }
         return cell
